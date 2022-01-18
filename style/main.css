@@ -1,0 +1,108 @@
+:root{
+
+   --preta: #17181b;
+   --laranja:#feb200;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+  background: linear-gradient(rgba(7, 6, 32, 0.95),rgba(7, 6, 32, 0.95)100%), url('/image/b.jpg');
+  background-size: cover;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+
+}
+header .logo {
+  width: 200px;
+  margin-left: 50px;
+  
+}
+header nav a{
+  font-weight: 800;
+  font-size: 40px;
+  text-decoration: none;
+  color:var(--laranja);
+  margin-right: 10px;
+}
+header nav a:hover{
+  color:#daa62d;
+}
+
+/* filme principal */
+.filme-principal  {
+  font-size: 16px;
+  background:linear-gradient(rgba(0,0,0, .50),rgba(0,0,0, .50)100%), url(/image/super.jpg);
+
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.filme-principal .descricao {
+  margin-top: 10%;
+  margin-bottom: 40px;
+
+}
+.title {
+  font-size: 50px;
+  
+}
+.btn {
+  background-color: rgba(238, 182, 28, 0.5);
+  border: none;
+  color: white;
+  border-radius: 12px 30px;
+
+  padding: 15px 30px;
+  margin-right: 10px;
+  font-size: 12px;
+  
+  cursor: pointer;
+  transition: .2s;
+}
+.btn:hover {
+  background-color: white;
+  color:#daa62d;
+  
+}
+
+.btn i {
+  margin-right: 8px;
+}
+.indicador{
+  font-size: 40px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.container {
+  
+  margin-left: 40px;
+
+}
+
+.filme-principal .container{
+  width: 50%;
+}
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
